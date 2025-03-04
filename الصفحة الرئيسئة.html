@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>منتجع الجولف - البرتغال</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <div class="logo-container">
+            <img src="logo.png" alt="شعار المنتجع" class="logo">
+        </div>
+        <nav>
+            <ul class="menu">
+                <li><a href="الرئيسية.html">الرئيسية</a></li>
+                <li><a href="Our Restaurants.html">مطاعمنا</a></li>
+                <li><a href="معلب الجولف.html">ملعب الجولف</a></li>
+                <li><a href="الحزم.html">الحزم</a></li>
+                <li><a href="دروس الجولف .html">دروس الجولف</a></li>
+                <li><a href="متجر المحترفين.html">متجر المحترفين</a></li>
+                <li><a href="خدمتنا .html">خدماتنا</a></li>
+                <li><a href="التواصل.html">التواصل</a></li>
+                <li><a href="نبذه عن الشركة.html">نبذةعنا</a></li>
+                <li><a href="map.html">موقعنا </a></li>
+            </ul>
+        </nav>
+        <div class="auth-buttons">
+            <a href="login.html" class="btn">تسجيل الدخول</a>
+            <a href="register.html" class="btn">مستخدم جديد</a>
+        </div>
+    </header>
+
+
+    <section id="home" class="hero">
+        <video autoplay muted loop id="bg-video">
+            <source src="b.mp4" type="video/mp4">
+        </video>
+        <div class="overlay">
+            <h1>مرحبًا بكم في منتجع الجولف</h1>
+            <p>استمتع بتجربة فريدة من نوعها</p>
+            <form class="search-bar">
+                <input type="text" placeholder="ابحث عن خدماتنا...">
+                <button type="submit">بحث</button>
+            </form>
+        </div>
+    </section>
+
+
+    <section id="restaurants" class="section">
+        <h2>مطاعمنا</h2>
+        <div class="restaurant-cards">
+            <div class="card">
+                <img src="restaurant-5521372_1280.jpg" alt="مطعم البحيرة">
+                <h3>مطعم البحيرة</h3>
+                <p>أشهى الأطباق العالمية بإطلالة رائعة.</p>
+            </div>
+            <div class="card">
+                <img src="cafe-1869656_1280.jpg" alt=" مقهى الجولف ">
+                <h3>مقهى الجولف</h3>
+                <p>قهوة ووجبات خفيفة بعد جولة الجولف.</p>
+            </div>
+        </div>
+    </section>
+    <section id="packages " class="section ">
+        <h2>الحزم المخصصة</h2>
+        <div class="package-cards ">
+            <div class="card ">
+                <h3>جولة الحلقية</h3>
+                <p>إقامة كاملة لمدة 5 ليالٍ + جولة في ملعب "سي فيو ".</p>
+                <span class="price ">$999</span>
+            </div>
+            <div class="card ">
+                <h3>الجولة الثالثة</h3>
+                <p>إقامة لمدة ليلتين + تأجير مجاني للعربات.</p>
+                <span class="price ">$499</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact " class="section ">
+        <h2>التواصل</h2>
+        <form>
+            <input type="text " placeholder="اسمك " required>
+            <input type="email " placeholder="بريدك الإلكتروني " required>
+            <textarea placeholder="رسالتك " required></textarea>
+            <button type="submit ">إرسال</button>
+        </form>
+        <div id="map "></div>
+    </section>
+
+
+    <footer>
+        <div class="social-icons ">
+            <a href="facebook.png "><img src="facebook.png " alt="Facebook "></a>
+            <a href="instagram.png "><img src="instagram.png " alt="Instagram "></a>
+            <a href="twitter.png "><img src="twitter.png " alt="Twitter "></a>
+        </div>
+        <p>&copy; 2025 منتجع الجولف. جميع الحقوق محفوظة.</p>
+    </footer>
+
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap " async defer></script>
+    <script src="عع.js ">
+    </script>
+</body>
+
+</html>
